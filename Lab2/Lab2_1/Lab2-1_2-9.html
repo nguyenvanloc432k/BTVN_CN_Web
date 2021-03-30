@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>2.9 Exercise</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="Lab2-1_2-9.php" method="POST">
+            <h1>Cập nhật thông tin tài khoản cá nhân</h1>
+            Đây là một button vô dụng <input type="button"  value="Nhấn thử">
+            <p></p>
+            <script>
+                const button = document.querySelector('input');
+                const paragraph = document.querySelector('p');
+                var cnt = 0;
+
+                button.addEventListener('click', updateButton);
+                
+                function updateButton() {
+                    cnt = cnt + 1;
+                    if (cnt%2==1) {
+                        paragraph.textContent = 'Đã nói là nút nhấn vô dụng mà!';
+                    } else {
+                        paragraph.textContent = '';
+                    }
+                }
+            </script>           
+            <br><hr>
+            <h3>Đặt lại mật khẩu</h3>
+            Nhập mật khẩu mới: <input type="password" name="pass1" id="pass1">
+            <br>
+            Nhập lại mật khẩu: <input type="password" name="pass2" id="pass2">
+            <br><hr>
+            <h3>Thông tin cá nhân</h3>
+            <input type="image" src="pngtree.jpg" name="image" width="200">
+            <br><br>
+            <input type="file" name="file">
+            <br><br>
+
+            Họ tên: <input type="text" name="name" id="name">
+            <br>
+            Giới tính:
+            <input type="radio" name="gender" value="Nam"> Nam
+            <input type="radio" name="gender" value="Nữ"> Nữ
+            <br>
+            Ngày sinh: <input type="date" name="date">
+            <br>
+            Số điện thoại: <input type="tel" name="tel">
+            <br>
+            Email: <input type="email" name="email">
+            <br>
+            Link facebook của bạn: <input type="url" name="facebook" id="">
+            <br>
+            Sở thích của bạn: <input type="checkbox" name="job[]" value="nghe nhạc"> Nghe nhạc <br>
+            <input type="checkbox" name="job[]" value="đọc sách"> Đọc sách <br>
+            <input type="checkbox" name="job[]" value="du lịch"> Du lịch <br>
+            <input type="checkbox" name="job[]" value="chơi thể thao"> Chơi thể thao
+            <br>
+            Màu sắc yêu thích: <input type="color" name="color">
+            <br>
+            Thời gian đi ngủ muộn nhất trong tuần hiện tại: <input type="datetime-local" name="datetime-local" id="">
+            <br>
+            <input type="hidden" name="hidden">
+            <br>
+            Sinh nhật của bạn vào tháng:  <input type="month" name="month" id="">
+            <br>
+            Số người yêu cũ: <input type="number" name="number" id="">
+            <br>
+            Mức độ yêu thích động vật: <input type="range" name="range" id="">
+            <br>
+            <!--
+            <input type="search" name="search" id="">
+            <br>-->
+            Hôm nay bạn ngủ dậy lúc: <input type="time" name="time" id="">
+            <br>
+            Test IQ: <br>
+            Chọn thời gian ứng với tuần sau: <input type="week" name="week" id="">
+            <br>
+            <input type="submit" name="submit" value="Xác nhận">
+            <input type="reset" name="reset" value="Nhập lại">
+
+        </form>
+
+    </body>
+</html>
