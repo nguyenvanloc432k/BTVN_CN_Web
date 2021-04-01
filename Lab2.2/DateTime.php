@@ -98,14 +98,14 @@ and open the template in the editor.
                         switch($month){
                             case 1: $dayOfMonth = 31; break;
                             case 3: $dayOfMonth = 31; break;
-                            case 4: $dayOfMonth = 31; break;
+                            case 4: $dayOfMonth = 30; break;
                             case 5: $dayOfMonth = 31; break;
-                            case 6: $dayOfMonth = 31; break;
+                            case 6: $dayOfMonth = 30; break;
                             case 7: $dayOfMonth = 31; break;
                             case 8: $dayOfMonth = 31; break;
-                            case 9: $dayOfMonth = 31; break;
+                            case 9: $dayOfMonth = 30; break;
                             case 10: $dayOfMonth = 31; break;
-                            case 11: $dayOfMonth = 31; break;
+                            case 11: $dayOfMonth = 30; break;
                             case 12: $dayOfMonth = 31; break;
                             default: 
                                 if(($year %100 == 0 && $year % 400 == 0)||($year%4 == 0&&$year%100!=0)){
