@@ -37,7 +37,7 @@ and open the template in the editor.
                         </select>
                         <select name="year" id = "year">
                             <?php
-                                for($i = 2000;$i<=2100;$i++){
+                                for($i = 1900;$i<=2200;$i++){
                                     print("<option> $i</option>");
                                 }
                             ?>
