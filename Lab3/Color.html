@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function colorChange(x,y){
+            x.style.color = y;
+        }
+        function colorDefault(x){
+            x.style.color = "BLACK";
+        }
+    </script>
+</head>
+<body>
+    <div onmouseover="colorChange(this,'RED')" onmouseout="colorDefault(this)">
+        <a href="#"><h1>RED</h1></a>
+        <p><h1>This is document when you hover there it's color change to red</h1> </p>
+    </div>
+    <div onmouseover="colorChange(this,'GREEN')" onmouseout="colorDefault(this)">
+        <a href="#"><h2>GREEN</h2></a>
+        <p><h2>This is document when you hover there it's color change to green</h2></p>
+    </div>
+    <div onmouseover="colorChange(this,'BLUE')" onmouseout="colorDefault(this)">
+        <a href="#"><h3>BLUE</h3></a>
+        <p><h3>This is document when you hover there it's color change to blue</h3></p>
+    </div>
+</body>
+</html>
