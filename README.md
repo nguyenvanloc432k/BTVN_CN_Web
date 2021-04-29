@@ -13,6 +13,6 @@ Lab2 - 2: Hoàn thành, Phần 1.2 và 1.3 file thực hiện ConditionalTest.ht
 Lab3: 11.1-> 11.6 là ví dụ code lại theo file bài tập
 11.7 là bài tập even handling: tạo 3 liên kết RED, GREEN, BLUE và dưới các liên kết đó là các văn bản (tự tạo) khi mà di chuyển chuột vào đó màu sẽ chuyển từ đen sang -> đỏ xanh lá, xanh lục. Khi di chuyển chuột khỏi đó sẽ quay về màu đen.
 
-Lab4: Practise và Part 1 xong!
+Lab4: Lab sử dụng PHP phiên bản cũ, đã sửa so với phiên bản PHP của nhóm, song nhóm chấm có thể gặp lỗi trong quá trình cài đặt. Mong nhóm bạn xem xét!
     Part 1: 
     Part 2: Nếu chạy thử không thành, hãy xem thử Part2/config/config.php
