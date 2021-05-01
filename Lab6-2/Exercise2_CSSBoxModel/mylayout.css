@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: red;
+    width: 100%;
+}
+
+#leftcol {
+    background: white;
+    float: left;
+    width: 20%;
+    height: 500px;
+}
+
+#rightcol {
+    background: yellow;
+    float: right;
+    width: 20%;
+    height: 500px;
+}
+
+#footer {
+    background: blue;
+    clear: both;
+    width: 100%;
+}
+
+ul.sidebar{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 1em ;
+    position: absolute;
+    width: 9em;
+    top: 2em;
+}
+ul.sidebar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
+}
