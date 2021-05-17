@@ -20,3 +20,5 @@ Lab4: Lab sử dụng PHP phiên bản cũ, đã sửa so với phiên bản PHP
 Lab5: Đã hoàn thành
 
 Lab6 : 6.2 is file in folder 6_2_LayoutWithStyle ;    6.3 is file in folder 6_3 and 6.3.4-5 is fixedDesignFixedBoxes and 6.3.6-7 is FixedDesignFloatingBoxes and 6.3.8-9 LiquidDesignFloatingBoxes and Exercise with mylayout.css and two page : mypage1 and mypage2 use mylayout.css
+
+Lab7: Khi test file, vui lòng mở file 7.2.xml trên Firefox Browser.
