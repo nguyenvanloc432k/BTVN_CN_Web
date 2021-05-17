@@ -1,0 +1,22 @@
+ - Here are a number of differences.  Some are not important, some are real important and easy to understand, 
+some are real important and hard to understand.  This list is not exhaustive.
+
+ - DTD's are not namespace aware.
+
+ - DTD's have #define, #include, and #ifdef -- or, less C-oriented, 
+the ability to define shorthand abbreviations, external content, and some conditional parsing.
+
+ - A DTD describes the entire XML document (even if it leaves "holes"); a schema can define portions.
+
+ - XSD has a type system.
+
+ - XSD has a much richer language for describing what element or attribute content "looks like."  
+ This is related to the type system.
+
+ - You can put a DTD inline into an XML document, you cannot do this with XSD.  
+ This means DTD's are more secure (you only have to protect one bytestream -- the xml/dtd -- and not multiple).
+
+ - The official definition of "valid XML" requires a DTD.  
+ Since this may be impractical, if not impossible, you often have to settle for schema-valid, which is not quite the same.
+
+ From: https://weblogs.asp.net/rchartier/440782

@@ -1,0 +1,47 @@
+*Một số ứng dụng XML:
+ATOM: 
+ - một phần mềm mã nguồn mở dùng để soạn thảo văn bản.
+ - Atom là một khoản đầu tư dài hạn và GitHub sẽ tiếp tục hỗ trợ sự phát triển của nó với một nhóm chuyên dụng trong tương lai.
+
+XUL:
+ - viết tắt của Ngôn ngữ giao diện người dùng XML là ngôn ngữ đánh dấu giao diện người dùng được phát triển bởi Mozilla
+ - XUL được triển khai như một phương ngữ XML, 
+ cho phép các giao diện người dùng đồ họa được viết theo cách tương tự như các trang web. 
+ Các ứng dụng như vậy phải được tạo bằng cách sử dụng cơ sở mã Mozilla (hoặc một nhánh của nó); 
+ ví dụ nổi bật nhất là trình duyệt web Firefox.
+ - Tài liệu XUL có thể chứa các thành phần từ các phương ngữ XML khác, chẳng hạn như SVG hoặc MathML.
+ 
+EPUG:
+ - tập tin một EPUB là một ebook kỹ thuật số được lưu trong định dạng EPUB, một định dạng dựa trên XML mở cho sách kỹ thuật số và các ấn phẩm.
+ - ePub là từ viết tắt của Electronic Publication, là một chuẩn sách điện tử mở và không tính phí của International Digital Publishing Forum
+ - tập tin cũng có đuôi là .epub ePub có phong cách thiết kế nhằm tối giản hóa văn bản hiển thị trên một thiết bị đặc biệt tận dụng cho sách điện tử ePub.
+
+XBRL:
+ -  là một khuôn khổ toàn cầu và có sẵn miễn phí để trao đổi thông tin kinh doanh. XBRL cho phép thể hiện ý nghĩa ngữ nghĩa thường được yêu cầu trong báo cáo kinh doanh .
+ - Ngôn ngữ dựa trên XML và sử dụng cú pháp XML và các công nghệ XML liên quan như XML Schema, XLink , XPath và Không gian tên . 
+ - Đặc tả XBRL được phát triển và xuất bản bởi XBRL International , Inc. (XII).
+
+
+ *Một số elements và attributes đặc trung của XML"
+ - elements: cú pháp chung
+    + <element></element>
+    + hoặc <element />
+
+ - attributes: cú pháp chung
+    + attribute_name="value"
+
+ - elements vs attributes:
+    + exe1:
+        <element1 att1="value1">
+            <element2>value2</element2>
+            <element3>value3</element3>
+        </element1>
+    + ex2:
+        <element1>
+            <element1>value1</element1>
+            <element2>value2</element2>
+            <element3>value3</element3>
+        </element1>
+    + ở ex2, element1 chính là att1 trên ex1, cả 2 ex cung cấp thông tin như nhau. 
+    Không có quy tắc nào yêu cầu về việc phải dùng elements hay attributes ở đâu hay khi nào.
+

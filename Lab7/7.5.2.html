@@ -1,0 +1,89 @@
+<!--Sự khác của XHTML
+    XMHL cho phép sử dụng thẻ tự đóng < />
+    XHML yêu cầu xmlns="" tại tag html
+    XHML yêu cầu nghiêm ngặt tag title phải nằm trong tag head
+    XHML yêu cầu mọi thẻ đều phải đóng (cả đóng chuẩn hay tự đóng)
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+    <title>Nobita's Home Page</title> 
+
+    <style type="text/css">
+    table, th, td {
+      border: 1px solid black;
+    }
+    
+    table {
+      width: 60%;
+      border-collapse: collapse;
+    }
+    </style>
+</head>
+
+
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                Personal Details
+                <ul>
+                    <li>Name : Nobi Nobita</li>
+                    <li>Sex : Male</li>
+                    <li>Age : 10</li>
+                    <li>Weight : 38kg</li>
+                    <li>Height : 142cm</li>
+                    <li>Nationality : Japan</li>
+                </ul>
+            </td>
+            <td style="width: 20%; text-align: center;">
+                Image
+                <br/>
+                <img src="https://upload.wikimedia.org/wikipedia/vi/2/2c/Nobita.png" alt="image of Nobi Nobita" width="150" height="150"/>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <!-- <style>
+            td{
+                width: 30%;
+            }
+        </style> -->
+    
+        <tr>
+            <td style="width: 20%;">Education process</td>
+            <td>3rd grade student at a primary school in Tokyo</td>
+        </tr>
+        <tr>
+            <td>Working process</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Society activities</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Skills</td>
+            <td>Play rope</td>
+        </tr>
+        <tr>
+            <td>Experiences</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Certifications</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td>Watching TV, sleeping, reading comics, ...</td>
+        </tr>
+        <tr>
+            <td>Desire</td>
+            <td>Become Shizuka's husband</td>
+        </tr>
+    </table>
+</body>
+</html>
